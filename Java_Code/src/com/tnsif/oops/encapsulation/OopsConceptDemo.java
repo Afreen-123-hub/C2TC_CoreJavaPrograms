@@ -28,7 +28,8 @@ public class OopsConceptDemo {
 
              @Override
              public String toString() {
-            	 return "OopsConceptDemo [Serial number=" +serialNum+"," +"name =" +name+", age=" +age+"]";
+            	 return "OopsConceptDemo [Serial number=" +serialNum+"," +"name ="
+            	 		+ "" +name+", age=" +age+"]";
              }
              }
 
