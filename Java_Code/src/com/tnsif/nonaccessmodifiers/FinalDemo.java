@@ -1,21 +1,20 @@
 package com.tnsif.nonaccessmodifiers;
-
-final class FinalDemo {
+class FinalDemo {
 	
-	final int Var = 100;
+	 int Var = 100;
 	
-	final void display() {
+	 void display() {
 		System.out.println("show the value of "
 				+ "var: "+Var);
 	}
 	// you cannot use Final method in Subclass
-	class Child extends FinalDemo{
+	 class Child extends FinalDemo{
 		void display() {
 			System.out.println("show the value of "
-					+ "max: "+Max);
-		}
-	}
-
+					+ "max: "+Var);
+		}}
+	
+    public class Multiple{
 	public static void main(String[] args) {
 		FinalDemo fd = new FinalDemo();
 		fd.display();
@@ -23,4 +22,4 @@ final class FinalDemo {
 
 	}
 
-}
+}}
